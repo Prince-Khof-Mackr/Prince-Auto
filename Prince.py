@@ -13,8 +13,8 @@ def requirements():
 def loader():
     os.system('clear')
     try:
-        import Prince
-        Prince.akash()
+        import prince
+        prince.akash()
     except ImportError:
         print("\n\033[1;91m[!] Error: Prince.cpython-312.so NOT FOUND!")
         sys.exit()
