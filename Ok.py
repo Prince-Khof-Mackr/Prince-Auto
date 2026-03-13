@@ -14,7 +14,7 @@ def loader():
     os.system('clear')
     try:
         import Prince
-        Prince.akash()
+        Prince()
     except ImportError:
         print("\n\033[1;91m[!] Error: Prince.cpython-312.so NOT FOUND!")
         sys.exit()
